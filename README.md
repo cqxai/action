@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: samifouad/cqx-action@v1
+      - uses: cqxai/action@v1
 ```
 
 That is the whole thing. On a pull request it scores the branch, scores the
@@ -74,7 +74,7 @@ not get worse.
 When you are ready to hold a line, add one:
 
 ```yaml
-      - uses: samifouad/cqx-action@v1
+      - uses: cqxai/action@v1
         with:
           min-score: '70'
 ```
@@ -82,7 +82,7 @@ When you are ready to hold a line, add one:
 ## Reporting without blocking
 
 ```yaml
-      - uses: samifouad/cqx-action@v1
+      - uses: cqxai/action@v1
         with:
           fail: 'false'
 ```
@@ -116,4 +116,4 @@ curl -fsSL https://cqx.dev/install | sh
 
 ## Licence
 
-Apache-2.0. cqx itself lives at [samifouad/cqx](https://github.com/samifouad/cqx).
+Apache-2.0. cqx itself lives at [cqxai/cqx](https://github.com/cqxai/cqx).
