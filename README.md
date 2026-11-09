@@ -116,4 +116,4 @@ curl -fsSL https://cqx.dev/install | sh
 
 ## Licence
 
-Apache-2.0. cqx itself lives at [cqxai/cqx](https://github.com/cqxai/cqx).
+MIT. cqx itself lives at [cqxai/cqx](https://github.com/cqxai/cqx).
